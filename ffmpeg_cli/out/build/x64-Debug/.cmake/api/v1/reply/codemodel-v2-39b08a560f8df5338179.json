@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GTest::gmock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GTest__gmock-Debug-b85e8cf8c7e24b9dc25e.json",
+					"name" : "GTest::gmock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GTest::gmock_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GTest__gmock_main-Debug-1b0d8767e785f478aeca.json",
+					"name" : "GTest::gmock_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GTest::gtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GTest__gtest-Debug-e0d9e7736623cc9405a7.json",
+					"name" : "GTest::gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GTest::gtest_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GTest__gtest_main-Debug-7f156001beb685005d72.json",
+					"name" : "GTest::gtest_main",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FfmpegUiConverter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-Debug-a52c2743939eee60a673.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-core-Debug-9c31dfee59f7d02d8e10.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_runner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_runner-Debug-a90284b3a04db6d35e2d.json",
+					"name" : "test_runner",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug",
+		"source" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}
