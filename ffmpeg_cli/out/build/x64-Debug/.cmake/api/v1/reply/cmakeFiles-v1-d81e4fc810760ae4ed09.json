@@ -208,38 +208,13 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/gtest/GTestConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/gtest/GTestConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/gtest/GTestTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/gtest/GTestTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/gtest/GTestTargets-release.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug",
-		"source" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli"
+		"build" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug",
+		"source" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli"
 	},
 	"version" : 
 	{

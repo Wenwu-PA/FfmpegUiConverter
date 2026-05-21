@@ -9,10 +9,8 @@
 #include <windows.h>
 
 static void fixConsoleUTF8() {
-    // Устанавливаем кодовую страницу консоли на UTF-8
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
-    // Включаем поддержку ANSI escape-последовательностей (цвета)
     HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
     DWORD dwMode = 0;
     GetConsoleMode(hOut, &dwMode);
@@ -27,6 +25,24 @@ static void fixConsoleUTF8() {
 #define YELLOW  "\033[33m"
 #define CYAN    "\033[36m"
 #define BOLD    "\033[1m"
+
+// Нормализация пути – удаляем кавычки и лишние пробелы
+static std::string normalizePath(const std::string& path) {
+    std::string result = path;
+    // Удаляем пробелы в начале и конце
+    size_t start = result.find_first_not_of(" \t\n\r");
+    if (start != std::string::npos)
+        result = result.substr(start);
+    size_t end = result.find_last_not_of(" \t\n\r");
+    if (end != std::string::npos)
+        result = result.substr(0, end + 1);
+    // Удаляем кавычки, если они есть
+    if (!result.empty() && result.front() == '"')
+        result.erase(0, 1);
+    if (!result.empty() && result.back() == '"')
+        result.pop_back();
+    return result;
+}
 
 static void printHeader() {
     std::cout << BOLD << CYAN
@@ -64,11 +80,17 @@ static std::string readStringOptional(const std::string& prompt) {
     return s;
 }
 
-static std::string readStringRequired(const std::string& prompt) {
+static std::string readStringRequired(const std::string& prompt, const std::string& defaultValue = "") {
     while (true) {
         std::cout << prompt;
+        if (!defaultValue.empty()) {
+            std::cout << " [default: " << defaultValue << "] ";
+        }
         std::string s;
         std::getline(std::cin, s);
+        if (s.empty() && !defaultValue.empty()) {
+            return defaultValue;
+        }
         if (!s.empty()) return s;
         std::cout << RED << "Ошибка: поле не может быть пустым. Повторите ввод.\n" << RESET;
     }
@@ -106,8 +128,12 @@ void CLI::run() {
             ConversionOptions opt;
 
             std::cout << CYAN << "\n--- Введите параметры конвертации ---\n" << RESET;
-            opt.inputFile = readStringRequired("Входной файл: ");
-            opt.outputFile = readStringRequired("Выходной файл: ");
+
+            // НОРМАЛИЗАЦИЯ ПУТЕЙ – УДАЛЕНИЕ КАВЫЧЕК
+            std::string input = readStringRequired("Входной файл: ");
+            std::string output = readStringRequired("Выходной файл: ");
+            opt.inputFile = normalizePath(input);
+            opt.outputFile = normalizePath(output);
 
             std::string tmp;
             tmp = readStringOptional("Видео-кодек (default libx264): ");

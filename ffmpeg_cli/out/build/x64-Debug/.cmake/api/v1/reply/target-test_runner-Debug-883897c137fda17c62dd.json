@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "app.exe"
+			"path" : "test_runner.exe"
 		},
 		{
-			"path" : "app.pdb"
+			"path" : "test_runner.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -17,6 +17,7 @@
 			"add_executable",
 			"target_link_libraries",
 			"add_custom_command",
+			"target_compile_options",
 			"include_directories"
 		],
 		"files" : 
@@ -44,7 +45,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 28,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -56,7 +57,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 14,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -79,14 +86,18 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/std:c++20"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
-					"path" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/include"
+					"backtrace" : 6,
+					"path" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/include"
 				}
 			],
 			"language" : "CXX",
@@ -96,12 +107,15 @@
 				[
 					2
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -112,7 +126,7 @@
 			"id" : "core::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "app::@6890427a1f51a3e7e1df",
+	"id" : "test_runner::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -148,13 +162,13 @@
 			"id" : "core::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "app",
-	"nameOnDisk" : "app.exe",
+	"name" : "test_runner",
+	"nameOnDisk" : "test_runner.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 4,
-			"id" : "app::@6890427a1f51a3e7e1df"
+			"id" : "test_runner::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -169,7 +183,10 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -178,13 +195,31 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.cpp",
+			"path" : "tests/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "src/CLI.cpp",
+			"path" : "tests/FFmpegConverter_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tests/CommandParser_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tests/History_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tests/ConversionOptions_tests.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

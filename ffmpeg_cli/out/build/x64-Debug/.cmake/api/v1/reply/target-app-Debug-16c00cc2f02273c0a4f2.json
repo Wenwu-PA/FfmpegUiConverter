@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test_runner.exe"
+			"path" : "app.exe"
 		},
 		{
-			"path" : "test_runner.pdb"
+			"path" : "app.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 30,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
@@ -44,7 +44,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 37,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -56,7 +56,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 14,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -71,14 +71,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "core::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "GTest::gtest::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "GTest::gtest_main::@6890427a1f51a3e7e1df"
 		}
 	],
 	"compileGroups" : 
@@ -87,26 +79,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
-				}
-			],
-			"defines" : 
-			[
-				{
-					"backtrace" : 3,
-					"define" : "GTEST_LINKED_AS_SHARED_LIBRARY=1"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/include"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "C:/vcpkg/installed/x64-windows/include"
+					"path" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/include"
 				}
 			],
 			"language" : "CXX",
@@ -114,16 +94,14 @@
 			{
 				"backtraces" : 
 				[
-					3
+					2
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2,
-				3
+				1
 			]
 		}
 	],
@@ -134,7 +112,7 @@
 			"id" : "core::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "test_runner::@6890427a1f51a3e7e1df",
+	"id" : "app::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -157,16 +135,6 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link\\gtest_main.lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\gtest.lib",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
@@ -178,23 +146,15 @@
 		{
 			"backtrace" : 3,
 			"id" : "core::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "GTest::gtest::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "GTest::gtest_main::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "test_runner",
-	"nameOnDisk" : "test_runner.exe",
+	"name" : "app",
+	"nameOnDisk" : "app.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 4,
-			"id" : "test_runner::@6890427a1f51a3e7e1df"
+			"id" : "app::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -209,9 +169,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2,
-				3
+				1
 			]
 		}
 	],
@@ -220,25 +178,13 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test_converter.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test_parser.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "tests/test_history.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "tests/test_options.cpp",
+			"path" : "src/CLI.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

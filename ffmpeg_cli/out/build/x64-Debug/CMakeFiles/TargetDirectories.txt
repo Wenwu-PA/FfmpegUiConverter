@@ -1,5 +1,5 @@
-C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/core.dir
-C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/app.dir
-C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/test_runner.dir
-C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/core.dir
+C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/app.dir
+C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/test_runner.dir
+C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

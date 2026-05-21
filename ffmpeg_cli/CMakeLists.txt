@@ -1,18 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
-
-set(CMAKE_TOOLCHAIN_FILE
-    "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
-    CACHE STRING "")
-
 project(FfmpegUiConverter)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(GTest CONFIG REQUIRED)
-
+# Подключаем заголовки
 include_directories(include)
 
+# Библиотека core – основная логика
 add_library(core
     src/CommandParser.cpp
     src/History.cpp
@@ -20,18 +15,23 @@ add_library(core
     src/ConversionOptions.cpp
 )
 
-add_executable(app
-    src/main.cpp
-    src/CLI.cpp
-)
-
+# Основное приложение
+add_executable(app src/main.cpp src/CLI.cpp)
 target_link_libraries(app PRIVATE core)
 
+# Тестовый runner – все тесты для MereTDD
 add_executable(test_runner
-    tests/test_converter.cpp
-    tests/test_parser.cpp
-    tests/test_history.cpp
-    tests/test_options.cpp
+    tests/main.cpp
+    tests/FFmpegConverter_tests.cpp
+    tests/CommandParser_tests.cpp
+    tests/History_tests.cpp
+    tests/ConversionOptions_tests.cpp
 )
+target_link_libraries(test_runner PRIVATE core)
 
-target_link_libraries(test_runner PRIVATE core GTest::gtest GTest::gtest_main)
+# Для MSVC нужен флаг /std:c++20, для GCC/Clang -std=c++20
+if(MSVC)
+    target_compile_options(test_runner PRIVATE /std:c++20)
+else()
+    target_compile_options(test_runner PRIVATE -std=c++20)
+endif()

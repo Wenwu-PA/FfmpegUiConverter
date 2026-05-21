@@ -26,6 +26,22 @@ static const std::unordered_set<std::string> validExtensions = {
     ".mp4", ".avi", ".mkv", ".mov", ".webm", ".flv", ".m4v"
 };
 
+// Нормализация пути – удаляем кавычки и лишние пробелы
+static std::string normalizePath(const std::string& path) {
+    std::string result = path;
+    size_t start = result.find_first_not_of(" \t\n\r");
+    if (start != std::string::npos)
+        result = result.substr(start);
+    size_t end = result.find_last_not_of(" \t\n\r");
+    if (end != std::string::npos)
+        result = result.substr(0, end + 1);
+    if (!result.empty() && result.front() == '"')
+        result.erase(0, 1);
+    if (!result.empty() && result.back() == '"')
+        result.pop_back();
+    return result;
+}
+
 bool ConversionOptions::isVideoCodecSupported(const std::string& codec) {
     return videoCodecs.find(codec) != videoCodecs.end();
 }
@@ -34,32 +50,30 @@ bool ConversionOptions::isAudioCodecSupported(const std::string& codec) {
     return audioCodecs.find(codec) != audioCodecs.end();
 }
 
-// РЕАЛИЗАЦИЯ isPresetSupported (была пропущена)
 bool ConversionOptions::isPresetSupported(const std::string& codec, const std::string& preset) {
     if (codec == "copy") return true;
-    // GPU-кодеки принимают любые строки (преобразуем позже)
     if (codec.find("nvenc") != std::string::npos ||
         codec.find("amf") != std::string::npos ||
         codec.find("qsv") != std::string::npos) {
         return true;
     }
-    // AV1 и VP9 тоже принимают любые строки (преобразуем в число)
     if (codec == "libsvtav1" || codec == "libvpx-vp9") {
         return true;
     }
-    // Для остальных (x264, x265) проверяем по списку строковых пресетов
     return stringPresets.find(preset) != stringPresets.end();
 }
 
 bool ConversionOptions::isOutputFormatSupported(const std::string& outputFile) {
-    fs::path p(outputFile);
+    std::string normalized = normalizePath(outputFile);
+    fs::path p(normalized);
     std::string ext = p.extension().string();
     std::transform(ext.begin(), ext.end(), ext.begin(), ::tolower);
     return validExtensions.find(ext) != validExtensions.end();
 }
 
 bool ConversionOptions::inputFileExists(const std::string& path) {
-    return fs::exists(path) && !fs::is_directory(path);
+    std::string normalized = normalizePath(path);
+    return fs::exists(normalized) && !fs::is_directory(normalized);
 }
 
 void ConversionOptions::applyDefaults() {

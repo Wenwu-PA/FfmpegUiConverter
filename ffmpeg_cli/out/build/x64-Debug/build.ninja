@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug\
+cmake_ninja_workdir = C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug\
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target core
 
@@ -49,40 +49,40 @@ cmake_ninja_workdir = C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64
 
 build cmake_object_order_depends_target_core: phony || .
 
-build CMakeFiles\core.dir\src\CommandParser.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\src\CommandParser.cpp || cmake_object_order_depends_target_core
+build CMakeFiles\core.dir\src\CommandParser.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\src\CommandParser.cpp || cmake_object_order_depends_target_core
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\core.dir
   OBJECT_FILE_DIR = CMakeFiles\core.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\core.dir\core.pdb
   TARGET_PDB = core.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\core.dir
 
-build CMakeFiles\core.dir\src\History.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\src\History.cpp || cmake_object_order_depends_target_core
+build CMakeFiles\core.dir\src\History.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\src\History.cpp || cmake_object_order_depends_target_core
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\core.dir
   OBJECT_FILE_DIR = CMakeFiles\core.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\core.dir\core.pdb
   TARGET_PDB = core.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\core.dir
 
-build CMakeFiles\core.dir\src\FFmpegConverter.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\src\FFmpegConverter.cpp || cmake_object_order_depends_target_core
+build CMakeFiles\core.dir\src\FFmpegConverter.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\src\FFmpegConverter.cpp || cmake_object_order_depends_target_core
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\core.dir
   OBJECT_FILE_DIR = CMakeFiles\core.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\core.dir\core.pdb
   TARGET_PDB = core.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\core.dir
 
-build CMakeFiles\core.dir\src\ConversionOptions.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\src\ConversionOptions.cpp || cmake_object_order_depends_target_core
+build CMakeFiles\core.dir\src\ConversionOptions.cpp.obj: CXX_COMPILER__core_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\src\ConversionOptions.cpp || cmake_object_order_depends_target_core
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\core.dir
   OBJECT_FILE_DIR = CMakeFiles\core.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\core.dir\core.pdb
@@ -118,20 +118,20 @@ build core.lib: CXX_STATIC_LIBRARY_LINKER__core_Debug CMakeFiles\core.dir\src\Co
 
 build cmake_object_order_depends_target_app: phony || cmake_object_order_depends_target_core
 
-build CMakeFiles\app.dir\src\main.cpp.obj: CXX_COMPILER__app_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\src\main.cpp || cmake_object_order_depends_target_app
+build CMakeFiles\app.dir\src\main.cpp.obj: CXX_COMPILER__app_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\src\main.cpp || cmake_object_order_depends_target_app
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\app.dir
   OBJECT_FILE_DIR = CMakeFiles\app.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\app.dir\
   TARGET_PDB = app.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\app.dir
 
-build CMakeFiles\app.dir\src\CLI.cpp.obj: CXX_COMPILER__app_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\src\CLI.cpp || cmake_object_order_depends_target_app
+build CMakeFiles\app.dir\src\CLI.cpp.obj: CXX_COMPILER__app_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\src\CLI.cpp || cmake_object_order_depends_target_app
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\app.dir
   OBJECT_FILE_DIR = CMakeFiles\app.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\app.dir\
@@ -152,7 +152,7 @@ build app.exe: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles\app.dir\src\main.cpp.
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = core.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\app.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\PowerShell\7\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/app.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\PowerShell\7\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/app.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\app.dir\
   TARGET_FILE = app.exe
@@ -169,44 +169,50 @@ build app.exe: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles\app.dir\src\main.cpp.
 
 build cmake_object_order_depends_target_test_runner: phony || cmake_object_order_depends_target_core
 
-build CMakeFiles\test_runner.dir\tests\test_converter.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\tests\test_converter.cpp || cmake_object_order_depends_target_test_runner
+build CMakeFiles\test_runner.dir\tests\main.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\tests\main.cpp || cmake_object_order_depends_target_test_runner
   CONFIG = Debug
-  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include -external:IC:\vcpkg\installed\x64-windows\include -external:W0
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 /std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\test_runner.dir
   OBJECT_FILE_DIR = CMakeFiles\test_runner.dir\tests
   TARGET_COMPILE_PDB = CMakeFiles\test_runner.dir\
   TARGET_PDB = test_runner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_runner.dir
 
-build CMakeFiles\test_runner.dir\tests\test_parser.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\tests\test_parser.cpp || cmake_object_order_depends_target_test_runner
+build CMakeFiles\test_runner.dir\tests\FFmpegConverter_tests.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\tests\FFmpegConverter_tests.cpp || cmake_object_order_depends_target_test_runner
   CONFIG = Debug
-  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include -external:IC:\vcpkg\installed\x64-windows\include -external:W0
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 /std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\test_runner.dir
   OBJECT_FILE_DIR = CMakeFiles\test_runner.dir\tests
   TARGET_COMPILE_PDB = CMakeFiles\test_runner.dir\
   TARGET_PDB = test_runner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_runner.dir
 
-build CMakeFiles\test_runner.dir\tests\test_history.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\tests\test_history.cpp || cmake_object_order_depends_target_test_runner
+build CMakeFiles\test_runner.dir\tests\CommandParser_tests.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\tests\CommandParser_tests.cpp || cmake_object_order_depends_target_test_runner
   CONFIG = Debug
-  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include -external:IC:\vcpkg\installed\x64-windows\include -external:W0
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 /std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\test_runner.dir
   OBJECT_FILE_DIR = CMakeFiles\test_runner.dir\tests
   TARGET_COMPILE_PDB = CMakeFiles\test_runner.dir\
   TARGET_PDB = test_runner.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_runner.dir
 
-build CMakeFiles\test_runner.dir\tests\test_options.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\tests\test_options.cpp || cmake_object_order_depends_target_test_runner
+build CMakeFiles\test_runner.dir\tests\History_tests.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\tests\History_tests.cpp || cmake_object_order_depends_target_test_runner
   CONFIG = Debug
-  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\include -external:IC:\vcpkg\installed\x64-windows\include -external:W0
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 /std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
+  OBJECT_DIR = CMakeFiles\test_runner.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_runner.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\test_runner.dir\
+  TARGET_PDB = test_runner.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\test_runner.dir
+
+build CMakeFiles\test_runner.dir\tests\ConversionOptions_tests.cpp.obj: CXX_COMPILER__test_runner_unscanned_Debug C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\tests\ConversionOptions_tests.cpp || cmake_object_order_depends_target_test_runner
+  CONFIG = Debug
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 /std:c++20
+  INCLUDES = -IC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\include
   OBJECT_DIR = CMakeFiles\test_runner.dir
   OBJECT_FILE_DIR = CMakeFiles\test_runner.dir\tests
   TARGET_COMPILE_PDB = CMakeFiles\test_runner.dir\
@@ -221,13 +227,13 @@ build CMakeFiles\test_runner.dir\tests\test_options.cpp.obj: CXX_COMPILER__test_
 #############################################
 # Link the executable test_runner.exe
 
-build test_runner.exe: CXX_EXECUTABLE_LINKER__test_runner_Debug CMakeFiles\test_runner.dir\tests\test_converter.cpp.obj CMakeFiles\test_runner.dir\tests\test_parser.cpp.obj CMakeFiles\test_runner.dir\tests\test_history.cpp.obj CMakeFiles\test_runner.dir\tests\test_options.cpp.obj | core.lib C$:\vcpkg\installed\x64-windows\debug\lib\manual-link\gtest_main.lib C$:\vcpkg\installed\x64-windows\debug\lib\gtest.lib || core.lib
+build test_runner.exe: CXX_EXECUTABLE_LINKER__test_runner_Debug CMakeFiles\test_runner.dir\tests\main.cpp.obj CMakeFiles\test_runner.dir\tests\FFmpegConverter_tests.cpp.obj CMakeFiles\test_runner.dir\tests\CommandParser_tests.cpp.obj CMakeFiles\test_runner.dir\tests\History_tests.cpp.obj CMakeFiles\test_runner.dir\tests\ConversionOptions_tests.cpp.obj | core.lib || core.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = core.lib  C:\vcpkg\installed\x64-windows\debug\lib\manual-link\gtest_main.lib  C:\vcpkg\installed\x64-windows\debug\lib\gtest.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = core.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\test_runner.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\PowerShell\7\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/test_runner.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\PowerShell\7\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/test_runner.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\test_runner.dir\
   TARGET_FILE = test_runner.exe
@@ -240,7 +246,7 @@ build test_runner.exe: CXX_EXECUTABLE_LINKER__test_runner_Debug CMakeFiles\test_
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -251,7 +257,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli -BC:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli -BC:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -273,7 +279,7 @@ build test_runner: phony test_runner.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug
+# Folder: C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug
 
 build all: phony core.lib app.exe test_runner.exe
 
@@ -284,14 +290,14 @@ build all: phony core.lib app.exe test_runner.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeFindDependencyMacro.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\CMakeLists.txt C$:\vcpkg\installed\x64-windows\share\gtest\GTestConfig.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestConfigVersion.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestTargets-debug.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestTargets-release.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestTargets.cmake C$:\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\4.2.3-msvc3\CMakeCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeRCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeSystem.cmake
+build build.ninja C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\out\build\x64-Debug\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\CMakeLists.txt C$:\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\4.2.3-msvc3\CMakeCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeRCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeFindDependencyMacro.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Users\Wenwu\FfmpegUiConverter\ffmpeg_cli\CMakeLists.txt C$:\vcpkg\installed\x64-windows\share\gtest\GTestConfig.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestConfigVersion.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestTargets-debug.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestTargets-release.cmake C$:\vcpkg\installed\x64-windows\share\gtest\GTestTargets.cmake C$:\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\4.2.3-msvc3\CMakeCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeRCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Users\Wenwu\Desktop\FfmpegUiConverter\ffmpeg_cli\CMakeLists.txt C$:\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\4.2.3-msvc3\CMakeCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeRCCompiler.cmake CMakeFiles\4.2.3-msvc3\CMakeSystem.cmake: phony
 
 
 #############################################

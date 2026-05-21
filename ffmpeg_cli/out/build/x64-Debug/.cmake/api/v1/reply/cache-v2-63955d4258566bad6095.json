@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug"
+			"value" : "c:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -483,7 +483,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli"
+			"value" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/install/x64-Debug"
+			"value" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1111,10 +1111,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug"
+			"value" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli/out/build/x64-Debug"
 		},
 		{
 			"name" : "FfmpegUiConverter_IS_TOP_LEVEL",
@@ -1167,19 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wenwu/FfmpegUiConverter/ffmpeg_cli"
-		},
-		{
-			"name" : "GTest_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for GTest."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/vcpkg/installed/x64-windows/share/gtest"
+			"value" : "C:/Users/Wenwu/Desktop/FfmpegUiConverter/ffmpeg_cli"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",

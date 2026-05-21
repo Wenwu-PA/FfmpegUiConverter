@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS  // отключает предупреждение о getenv
+#define _CRT_SECURE_NO_WARNINGS
 
 #include "FFmpegConverter.h"
 #include <cstdlib>
@@ -19,8 +19,12 @@ std::string FFmpegConverter::findFFmpegPath() {
     return "ffmpeg";
 }
 
+// Функция quote – добавляет кавычки ТОЛЬКО если в пути есть пробелы
 static std::string quote(const std::string& s) {
-    return "\"" + s + "\"";
+    if (s.find(' ') != std::string::npos || s.find('\t') != std::string::npos) {
+        return "\"" + s + "\"";
+    }
+    return s;
 }
 
 static int av1PresetToInt(const std::string& preset) {
