@@ -77,26 +77,26 @@ bool ConversionOptions::inputFileExists(const std::string& path) {
 
 void ConversionOptions::applyDefaults() {
     if (videoCodec.empty()) videoCodec = "libx264";
-    if (audioCodec.empty()) audioCodec = "aac";
-    if (preset.empty()) preset = "medium";
-    if (videoBitrate <= 0) videoBitrate = 0;
-    if (audioBitrate <= 0) audioBitrate = 128;
+    else if (audioCodec.empty()) audioCodec = "aac";
+    else if (preset.empty()) preset = "medium";
+    else if (videoBitrate <= 0) videoBitrate = 0;
+    else if (audioBitrate <= 0) audioBitrate = 128;
 }
 
 std::optional<std::string> ConversionOptions::validate() const {
     if (!inputFileExists(inputFile))
         return "Input file does not exist: " + inputFile;
-    if (outputFile.empty())
+    else if (outputFile.empty())
         return "Output file path is empty";
-    if (!isOutputFormatSupported(outputFile))
+    else if (!isOutputFormatSupported(outputFile))
         return "Unsupported output format. Supported: mp4, avi, mkv, mov, webm, flv, m4v";
-    if (!isVideoCodecSupported(videoCodec))
+    else if (!isVideoCodecSupported(videoCodec))
         return "Video codec not supported. Available: libx264, libx265, h264_nvenc, hevc_nvenc, av1_nvenc, h264_amf, hevc_amf, h264_qsv, hevc_qsv, libsvtav1, libvpx-vp9";
-    if (!isAudioCodecSupported(audioCodec))
+    else if (!isAudioCodecSupported(audioCodec))
         return "Audio codec not supported. Recommended: aac, mp3, opus, flac";
-    if (!isPresetSupported(videoCodec, preset))
+    else if (!isPresetSupported(videoCodec, preset))
         return "Invalid preset. Allowed: ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow";
-    if (videoBitrate < 0 || audioBitrate < 0)
+    else if (videoBitrate < 0 || audioBitrate < 0)
         return "Bitrate cannot be negative";
     return std::nullopt;
 }
